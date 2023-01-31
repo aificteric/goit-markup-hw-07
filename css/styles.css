@@ -812,8 +812,6 @@ body {
   }
   .first-section {
     background: var(--body-color);
-    padding-top: ;
-    padding-bottom: ;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
