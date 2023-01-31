@@ -333,7 +333,8 @@ body {
 .footer-paragraph-1 {
   margin-top: 16px;
   margin-bottom: 72px;
-  align-self: center;
+  padding-left: 80px;
+  padding-right: 80px;
   width: 100%;
   font-size: 16px;
   line-height: 1.5;
@@ -407,7 +408,6 @@ body {
   padding: 8px 16px;
 }
 .footer-button {
-  display: inline-flex;
   margin-top: 16px;
   position: relative;
   background-color: #4d5ae5;
@@ -760,6 +760,7 @@ body {
     width: 480px;
     padding-right: 16px;
     padding-left: 16px;
+    margin: 0 auto;
   }
   .first-section {
     background: var(--body-color);
@@ -779,6 +780,7 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    margin: 0 auto;
   }
   .header-container {
     display: flex;
@@ -835,5 +837,8 @@ body {
   }
   .studio-members-images > .container {
     width: 584px;
+  }
+  .customers-list {
+    gap: 72px 24px;
   }
 }
