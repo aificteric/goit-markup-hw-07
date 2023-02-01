@@ -200,8 +200,8 @@ body {
 }
 .menu-close-button {
   position: absolute;
-  left: 90%;
-
+  top: 48px;
+  right: 48px;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
