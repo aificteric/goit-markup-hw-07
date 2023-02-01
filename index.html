@@ -46,6 +46,12 @@
               <a class="navigation-link link" href="">Contacts</a>
             </li>
           </ul>
+          <button class="header-menu-open-button" type="button" menu-modal-open>
+            <svg class="menu-open-icon" width="30" height="19">
+              >
+              <use href="./images/icons.svg#icon-menu-open-btn"></use>
+            </svg>
+          </button>
         </nav>
         <ul class="contacts">
           <li class="contact-item">
@@ -59,6 +65,86 @@
             >
           </li>
         </ul>
+      </div>
+      <div class="mobile-menu" menu-modal>
+        <div class="container mobile-menu-container">
+          <button class="menu-close-button" type="button" menu-modal-close>
+            <svg class="menu-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-modal-close"></use>
+            </svg>
+          </button>
+          <ul class="navigation-menu-list">
+            <li class="menu-list-item">
+              <a class="navigation-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="navigation-menu-link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-list-item">
+              <span class="menu-contacts-span">Contacts</span>
+            </li>
+          </ul>
+          <ul class="contacts-menu-list">
+            <li class="contacts-list-item">
+              <a class="menu-tel-link" href="tel:+11(000)111-11-11">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <a class="menu-mail-link" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="menu-soc">
+            <li class="menu-soc-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a
+                href="https://facebook.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -143,6 +229,10 @@
           <ul class="studio-services-images">
             <li class="services-images">
               <img
+                srcset="
+                  ./images/image1_main.jpg    1x,
+                  ./images/image1_main@2x.jpg 2x
+                "
                 src="./images/image1_main.jpg"
                 alt="PC with some opened content on the screen"
                 width="360"
@@ -151,6 +241,10 @@
             </li>
             <li class="services-images">
               <img
+                srcset="
+                  ./images/image2_main.jpg    1x,
+                  ./images/image2_main@2x.jpg 2x
+                "
                 src="./images/image2_main.jpg"
                 alt="Opened messenger on the phone, present as layers of the app"
                 width="360"
@@ -159,6 +253,10 @@
             </li>
             <li class="services-images">
               <img
+                srcset="
+                  ./images/image3_main.jpg    1x,
+                  ./images/image3_main@2x.jpg 2x
+                "
                 src="./images/image3_main.jpg"
                 alt="Phone in the hand with the opened article"
                 width="360"
@@ -177,6 +275,10 @@
           <ul class="studio-members-images">
             <li class="team-member">
               <img
+                srcset="
+                  ./images/image4_main.jpg    1x,
+                  ./images/image4_main@2x.jpg 2x
+                "
                 src="./images/image4_main.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -235,6 +337,10 @@
             </li>
             <li class="team-member">
               <img
+                srcset="
+                  ./images/image5_main.jpg    1x,
+                  ./images/image5_main@2x.jpg 2x
+                "
                 src="./images/image5_main.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -293,6 +399,10 @@
             </li>
             <li class="team-member">
               <img
+                srcset="
+                  ./images/image6_main.jpg    1x,
+                  ./images/image6_main@2x.jpg 2x
+                "
                 src="./images/image6_main.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -351,6 +461,10 @@
             </li>
             <li class="team-member">
               <img
+                srcset="
+                  ./images/image7_main.jpg    1x,
+                  ./images/image7_main@2x.jpg 2x
+                "
                 src="./images/image7_main.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -657,5 +771,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
