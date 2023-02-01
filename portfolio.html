@@ -31,10 +31,12 @@
         <nav class="header-list">
           <ul class="navigation">
             <li class="navigation-item">
-              <a class="navigation-link link" href="./index.html">Studio</a>
+              <a class="navigation-link link active" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li class="navigation-item">
-              <a class="navigation-link link active" href="./portfolio.html"
+              <a class="navigation-link link" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
@@ -42,6 +44,12 @@
               <a class="navigation-link link" href="">Contacts</a>
             </li>
           </ul>
+          <button class="header-menu-open-button" type="button" menu-modal-open>
+            <svg class="menu-open-icon" width="30" height="22">
+              >
+              <use href="./images/icons.svg#icon-menu-open-btn"></use>
+            </svg>
+          </button>
         </nav>
         <ul class="contacts">
           <li class="contact-item">
@@ -55,6 +63,86 @@
             >
           </li>
         </ul>
+      </div>
+      <div class="mobile-menu" menu-modal>
+        <div class="container mobile-menu-container">
+          <button class="menu-close-button" type="button" menu-modal-close>
+            <svg class="menu-close" width="8" height="8">
+              <use href="./images/icons.svg#icon-modal-close"></use>
+            </svg>
+          </button>
+          <ul class="navigation-menu-list">
+            <li class="menu-list-item">
+              <a class="navigation-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-list-item">
+              <a class="navigation-menu-link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-list-item">
+              <span class="menu-contacts-span">Contacts</span>
+            </li>
+          </ul>
+          <ul class="contacts-menu-list">
+            <li class="contacts-list-item">
+              <a class="menu-tel-link" href="tel:+11(000)111-11-11">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <a class="menu-mail-link" href="mailto:info@devstudio.com">
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="menu-soc">
+            <li class="menu-soc-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a
+                href="https://facebook.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-soc-item">
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                class="menu-soc-link"
+              >
+                <svg class="menu-soc-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -84,6 +172,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img1_portfolio.jpg    1x,
+                    ./images/img1_portfolio@2x.jpg 2x
+                  "
                   src="./images/img1_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -108,6 +200,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img2_portfolio.jpg    1x,
+                    ./images/img2_portfolio@2x.jpg 2x
+                  "
                   src="./images/img2_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -130,6 +226,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img3_portfolio.jpg    1x,
+                    ./images/img3_portfolio@2x.jpg 2x
+                  "
                   src="./images/img3_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -152,6 +252,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img4_portfolio.jpg    1x,
+                    ./images/img4_portfolio@2x.jpg 2x
+                  "
                   src="./images/img4_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -174,6 +278,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img5_portfolio.jpg    1x,
+                    ./images/img5_portfolio@2x.jpg 2x
+                  "
                   src="./images/img5_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -195,6 +303,11 @@
             <li class="portfolio-examples">
               <div class="portfolio-thumbnail">
                 <img
+                  class="portfolio-image"
+                  srcset="
+                    ./images/img6_portfolio.jpg    1x,
+                    ./images/img6_portfolio@2x.jpg 2x
+                  "
                   src="./images/img6_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -217,6 +330,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img7_portfolio.jpg    1x,
+                    ./images/img7_portfolio@2x.jpg 2x
+                  "
                   src="./images/img7_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -241,6 +358,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img8_portfolio.jpg    1x,
+                    ./images/img8_portfolio@2x.jpg 2x
+                  "
                   src="./images/img8_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"
@@ -263,6 +384,10 @@
               <div class="portfolio-thumbnail">
                 <img
                   class="portfolio-image"
+                  srcset="
+                    ./images/img9_portfolio.jpg    1x,
+                    ./images/img9_portfolio@2x.jpg 2x
+                  "
                   src="./images/img9_portfolio.jpg"
                   alt="Banking app concept interface"
                   width="360"

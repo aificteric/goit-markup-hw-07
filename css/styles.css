@@ -188,6 +188,8 @@ body {
   pointer-events: auto;
 }
 .header-menu-open-button {
+  width: 30px;
+  height: 22px;
   fill: #000;
   border: transparent;
   background-color: transparent;
@@ -784,7 +786,7 @@ body {
   background-color: transparent;
   margin-top: 4px;
   margin-bottom: 8px;
-  margin-left: 24px;
+  margin-left: 16px;
   padding-left: 38px;
   outline: transparent;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -812,7 +814,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding: 8px 16px;
   border-radius: 4px;
-  margin-left: 24px;
+  margin-left: 16px;
   margin-right: 24px;
   margin-top: 4px;
   font-size: 12px;
@@ -832,7 +834,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 .modal-field-checkbox {
-  margin-left: 24px;
+  margin-left: 16px;
 }
 .input-icon {
   fill: #2e2f42;
@@ -900,9 +902,6 @@ body {
 .modal-button:hover,
 .modal-button:focus {
   background: #404bbf;
-}
-.modal-field-checkbox {
-  margin-left: 24px;
 }
 /*--------------MEDIA----------------*/
 
